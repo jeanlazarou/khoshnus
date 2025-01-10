@@ -42,8 +42,7 @@ import 'khoshnus/style.css'
 
 const App = () => {
     useEffect(() => {
-        const manuscript = new Manuscript();
-        manuscript.setup({
+        const manuscript = new Manuscript({
             font: FONT_MATRIX["Pinyon Script"].name,
             fontSize: "10px",
         });
@@ -87,8 +86,7 @@ Then start using the library:
 
 ```javascript
 // Create the Manuscript instance and setup global configuration.
-const manuscript = new Manuscript();
-manuscript.setup({
+const manuscript = new Manuscript({
     font: FONT_MATRIX["Pinyon Script"].name,
     fontSize: "10px",
 });
@@ -153,11 +151,11 @@ write("Your Text Here", {
 
 Check out the following snippet:
 ```javascript
-const manuscript = new Manuscript();
-manuscript.setup({
+const manuscript = new Manuscript({
     font: FONT_MATRIX["Pinyon Script"].name,
     fontSize: "10px",
 });
+
 const textId0 = manuscript.write("Do not lament my absence,", {
     textElementAttributes: { y: "10%", },
     writeConfiguration: { eachLetterDelay: 100 }

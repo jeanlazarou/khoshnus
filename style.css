@@ -4,30 +4,30 @@
 
 @font-face {
     font-family: "BlackCherry";
-    src: url("./public/fonts/BLKCHCRY.TTF");
+    src: url("./fonts/BLKCHCRY.TTF");
 }
 
 @font-face {
     font-family: "Celtic";
-    src: url("./public/fonts/CELTG___.TTF");
+    src: url("./fonts/CELTG___.TTF");
 }
 
 @font-face {
     font-family: "Eutemia";
-    src: url("./public/fonts/Eutemia.ttf");
+    src: url("./fonts/Eutemia.ttf");
 }
 
 @font-face {
     font-family: "Kingthings";
-    src: url("./public/fonts/Kingthings_Calligraphica_Italic.ttf");
+    src: url("./fonts/Kingthings_Calligraphica_Italic.ttf");
 }
 
 @font-face {
     font-family: "Ruritania";
-    src: url("./public/fonts/Ruritania.ttf");
+    src: url("./fonts/Ruritania.ttf");
 }
 
 @font-face {
     font-family: "VTKS";
-    src: url("./public/fonts/Vtks\ Beautiful\ Dreams.ttf");
+    src: url("./fonts/Vtks\ Beautiful\ Dreams.ttf");
 }
