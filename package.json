@@ -1,8 +1,8 @@
 {
   "name": "khoshnus",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "A library to write text in a nice (calligraphy) animated fashion",
-  "main": "khoshnus.js",
+  "main": "khoshnus.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
